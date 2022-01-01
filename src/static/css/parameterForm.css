@@ -1,0 +1,32 @@
+.save-button {
+    border-radius: 7px;
+    border: 1px solid var(--main-color);
+    width: 150px;
+    height: 40px;
+    background-color: var(--secondary-color);
+    color: var(--font-color);
+    font-size: 1.5em;
+}
+
+.save-button:active {
+    background-color: var(--tertiary-color);
+}
+
+.save-button:hover,
+.save-button:focus {
+    color: var(--main-color);
+    /*font-weight: bold;*/
+    border: 2px solid black;
+}
+
+/*.save-button:hover,*/
+/*.save-button:focus {*/
+/*    color: var(--main-color);*/
+/*    font-weight: bold;*/
+/*    border: 2px inset black;*/
+/*}*/
+
+.saved-notification {
+    color: var(--main-color);
+    margin-left: 3vw;
+}

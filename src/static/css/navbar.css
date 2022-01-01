@@ -1,0 +1,101 @@
+.nav-bar {
+    display: flex;
+    background-color: var(--secondary-color);
+    /*background-color: #000052;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10vh;
+    border-bottom: 4px solid var(--tertiary-color);
+}
+
+.nav-item {
+    padding: 1px 5px 1px 5px;
+    margin: 3px 5px 3px 5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #DDDDE8;
+    font-weight: 500;
+    font-size: 1.4em;
+}
+
+.nav-item:first-child {
+    margin-left: 2vw;
+}
+
+/*.nav-item:hover# {*/
+/*    background-color: #000052;*/
+/*}*/
+
+.nav-item-link:hover {
+    color: var(--main-color);
+}
+
+/*.nav-item:active {*/
+/*    background-color: red;*/
+/*}*/
+
+.log-in-button {
+    margin: 7px 10px 7px 10px;
+    padding: 0 20px;
+    cursor: pointer;
+    background-color: var(--tertiary-color);
+    border-radius: 10px;
+    border-style: none;
+}
+
+.log-in-button:hover {
+    color: var(--main-color);
+}
+
+.log-in-button:active {
+    background-color: var(--main-color);
+    color: var(--font-color);
+}
+
+
+.logo-container {
+    /*margin-top: 1vh;*/
+    /*margin-left: 1vw;*/
+    margin: 1vh 1vw 0 1vw;
+}
+
+/* Code to resize an image to fit into a div */
+/* Taken from a StackOverflow answer by Kevin, posted 12 June 2010 */
+/* Accessed 21 August 2021 */
+/* https://stackoverflow.com/a/3029434/15394129 */
+.logo {
+    max-width: 90%;
+    max-height: 90%;
+}
+/* End of referenced code */
+
+.divider {
+    width: 1px;
+    height: 80%;
+    margin: auto 0;
+    background-color: var(--font-color);
+    opacity: 50%;
+}
+
+.link-container {
+    display: flex;
+}
+
+.username-container {
+    /*margin-left: auto;*/
+}
+
+.right-aligned-container {
+    display: flex;
+    margin-left: auto;
+}
+
+.profile-picture {
+    border-radius: 100px;
+    height: 80%;
+    margin: auto 0;
+    border: 3px var(--tertiary-color) solid;
+}

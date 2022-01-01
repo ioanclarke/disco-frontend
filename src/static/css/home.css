@@ -1,0 +1,12 @@
+.main-container {
+    /*margin: auto;*/
+    /*border: 1px solid red;*/
+    text-align: center;
+    font-size: 2em;
+    margin-top: 40vh;
+    color: #DDDDE8;
+}
+
+.page-title {
+    font-weight: 300;
+}

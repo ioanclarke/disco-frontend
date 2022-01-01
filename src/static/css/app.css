@@ -1,0 +1,48 @@
+:root {
+    --main-color: #383138;
+    --secondary-color: #910F9B;
+    --tertiary-color: #6B1C71;
+    --font-color: #DDDDE8;
+    --main-font: 'Raleway', sans-serif;
+}
+
+.app {
+    margin: 20vh 10vw;
+}
+
+body {
+    font-family: var(--main-font);
+    /*font-family: 'Quicksand', sans-serif;*/
+    /*font-family: 'DM Mono', monospace;*/
+    /*background-color: #DA6A00;*/
+    background-color: #000052;
+    color: #DDDDE8;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.list-item {
+    margin: 5vh auto;
+    padding: 1vh 1vw;
+    height: 13vh;
+    background-color: var(--secondary-color);
+    border: 2px solid var(--tertiary-color);
+    border-radius: 5px;
+    font-size: 1.5em;
+    width: 70%;
+    transition: transform 0.2s ease-out;
+    text-decoration: none;
+    color: var(--font-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.list-item:hover {
+    /*transform: scale(1.1);*/
+    color: var(--main-color)
+}

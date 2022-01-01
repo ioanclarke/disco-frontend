@@ -1,0 +1,9 @@
+.return-link {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 2em;
+}
+
+.page-container {
+    text-align: center;
+}
